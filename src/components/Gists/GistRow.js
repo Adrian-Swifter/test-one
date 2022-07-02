@@ -8,7 +8,7 @@ const GistRow = ({ gist, handleRowClick, items }) => {
         <img
           src={gist.owner.avatar_url}
           className={`${styles.avatar} ${items.includes(gist) ? "darken" : ""}`}
-          alt="Avatar Image"
+          alt=""
         />
       </span>
       <p className={items.includes(gist) ? "link-color" : ""}>
