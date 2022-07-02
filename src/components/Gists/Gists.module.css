@@ -1,0 +1,17 @@
+.gist-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid lightgrey;
+    cursor: pointer;
+  }
+  
+  .avatar-wrapper {
+    max-width: 5em;
+    min-width: 5em;
+    margin: 1em 1.5em 1em 0;
+  }
+  
+  .avatar {
+    max-width: 100%;
+  }
+  
