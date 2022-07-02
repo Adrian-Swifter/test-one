@@ -39,7 +39,7 @@ const Gists = ({ gists }) => {
           />
         ))}
       </ul>
-      <img src="" className="center-image" ref={centerImage} />
+      <img src="" className="center-image" ref={centerImage} alt="" />
     </main>
   );
 };
